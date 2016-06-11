@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en" ng-app="surveyapp">
+  <head>
+    <meta charset="utf-8">
+    <title>Dalia's Survey App</title>
+    <!-- libary -css-->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/loading-bar.css">
+    <!-- custom -css-->
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <!--angular dependency-->
+  <script src="daliaresearch.js"></script>
+  </head>
+  <body>
+		<nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <a href="#" class="navbar-brand">Dalia's Survey</a>
+        </div>
+      </div>
+    </nav><!-- closing of top nav bar-->
+		<div role="main" class="container theme-showcase">
+      <div class="" style="margin-top:90px;">
+        <div ui-view>
+        </div><!--closing of view that will render -->
+      </div>
+    </div>
+    <!--custom app-->
+  	<script src="lib/templates.js"></script>
+  </body>
+</html>
